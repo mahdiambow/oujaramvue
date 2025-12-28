@@ -1376,5 +1376,7 @@ onMounted(async () => {
 .rating-star.active {
   color: #ffc107;
 }
+
+/* tes */
 </style>
 
