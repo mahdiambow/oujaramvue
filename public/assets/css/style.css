@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'IranSans';
+    src: url('/assets/fonts/iran/IRANSansXFaNum-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'IranSans' !important;
+    direction: rtl;
+}
+
+html {
+    font-family: 'IranSans' !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    font-family: 'IranSans' !important;
+}
+
+
+.Vue-Toastification__toast-body {
+    font-family: 'IranSans' !important;
+}
+
+
+.form-check .form-check-input {
+    float: right;
+    margin-left: 0.5em;
+}
+
+
+.accordion-button::after {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d96b20 !important;
+    color: white !important;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0 !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.menu-item {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    color: #686868 !important;
+    /* رنگ اورنج مشابه تصویر */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.dropdown-toggle::after {
+    content: " " !important;
+    display: none !important;
+}
+
+.menu-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* فاصله از متن */
+    width: 0;
+    height: 2px;
+    background-color: #d96b20;
+    transition: width 0.3s ease;
+}
+
+.hover-card:hover {
+    box-shadow: 0 0 30px rgba(24, 23, 24, .2) !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border: 1px solid #f26419 !important;
+}
+
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.hover-card {
+    transition: all .3s !important;
+}
+
+.menu-item:hover {
+    color: #b45015 !important;
+    /* کمی تیره‌تر در حالت هاور */
+}
+
+.menu-item:hover::after {
+    width: 100%;
+}
+
+.text-orange {
+    color: #f26419 !important;
+}
+
+
+.form-check-input:checked {
+    background-color: #f26419 !important;
+    border-color: #f26419 !important;
+}
+
+.bg-orange {
+    background-color: #f26419 !important;
+}
+
+.text-gray {
+    color: #686868 !important;
+}
+
+.active {
+    color: #d96b20 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* فاصله از متن */
+    width: 100%;
+    height: 2px;
+    background-color: #d96b20;
+    transition: width 0.3s ease;
+}
+
+
+.active {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    color: #d96b20 !important;
+    /* رنگ اورنج مشابه تصویر */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+.owl-carousel .item h4 {
+    background: #ff7b24;
+    color: white;
+    padding: 30px 0;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.owl-carousel .item {
+    background-color: #ff7b24 !important;
+    /* رنگ زمینه نارنجی دلخواهت */
+    color: #fff;
+    /* رنگ نوشته */
+    padding: 60px 0;
+    /* ارتفاع با فاصله‌ی بالا و پایین */
+    margin: 5px;
+    /* فاصله‌ی بین آیتم‌ها */
+    text-align: center;
+    /* متن وسط چین */
+    border-radius: 12px;
+    /* گوشه‌های گرد */
+    font-size: 2rem;
+    /* عدد داخل بزرگ‌تر بشه */
+}
+
+
+
+
+.tab-btn {
+    background-color: #fff;
+    color: #d96b20;
+    border: 1px solid #d96b20;
+}
+
+.active-tab {
+    color: #fff !important;
+    background-color: #d96b20 !important;
+}
+
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab-btn:hover {
+    background-color: #d96b20;
+    color: #fff;
+}
+
+
+li::marker {
+    color: #d96b20 !important;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+}
+
+
+@media all and (max-width:1023px) {
+    .d-none-mobile {
+        display: none !important;
+    }
+
+    .h-m-5 {
+        height: 5rem !important;
+    }
+
+    .display-m-none {
+        display: none !important;
+    }
+
+    .h-m-unset {
+        height: unset !important;
+    }
+
+    .fo-m-5 {
+        font-size: .5rem !important;
+    }
+
+    .h-m-30 {
+        height: 30vh !important;
+    }
+}
